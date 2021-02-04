@@ -1,12 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: "はじめてのGatsby Site",
+    description:
+      "Gatsbyでメタデータを設定するための手順を公開しているサイトです。",
+    image: "/XXX.jpg",
+    url: "https://www.reffect.co.jp",
+    twitterUsername: "reffect2020",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-transition-link`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
